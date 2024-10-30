@@ -9,6 +9,7 @@ off_red_lights = 0
 for direction in lights :
     RGB_lights = direction[0] #check only g,y,r light lists
     if RGB_lights[2] == 0 : #check the red light position
+        # Isn't it RGB_lights[0]?
         off_red_lights +=1 #update count
         print("+1 off red LED")
     else :
