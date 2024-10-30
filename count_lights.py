@@ -4,6 +4,7 @@
 lights = [[[0, 0, 1], [0]], [[1, 0, 0], [1]], [[1, 1, 0], [0]], [[0, 0, 1], [1]]]
 
 #set empty list to count off red LED lights
+# This is not a list, but an integer, right?
 led_count = 0
 
 #check for LED in light type (g,y,r or white) in direction of the light state
